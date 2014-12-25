@@ -1,0 +1,52 @@
+<p>This is the moncompte view.</p>
+<div>
+  <form class="form-horizontal">
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="firstname">First Name</label>
+      <div class="col-md-5">
+        <input id="firstname" name="firstname" ng-model="moncompte.user.firstname" type="text" placeholder="Cole" class="form-control input-md">
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="lastname">Last Name</label>
+      <div class="col-md-5">
+        <input id="lastname" name="lastname" ng-model="moncompte.user.lastname" type="text" placeholder="Ryan" class="form-control input-md">
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="email">Email</label>
+      <div class="col-md-5">
+        <input id="email" name="email" ng-model="moncompte.user.email" type="text" placeholder="atoure@imag.ml" class="form-control input-md">
+      </div>
+    </div>
+
+    <!-- Password input 1-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="password1">Password</label>
+      <div class="col-md-5">
+        <input id="password1" name="password1" ng-model="moncompte.user.password1" type="password" placeholder="" class="form-control input-md">
+      </div>
+    </div>
+
+    <!-- Password input 2-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="password2">Retype Password</label>
+      <div class="col-md-5">
+        <input id="password2" name="password2" ng-model="moncompte.user.password2" type="password" placeholder="" class="form-control input-md">
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="moncompte"></label>
+      <div class="col-md-5">
+        <button ng-click="moncompte.submit()" id="moncompte" name="moncompte" class="btn btn-success btn-block">Signup!</button>
+      </div>
+    </div>
+  </form>
+</div>
